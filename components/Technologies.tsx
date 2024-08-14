@@ -14,7 +14,6 @@ const Technologies = () => {
     <div className="border-b border-transparent pb-24 max-w-screen-lg mx-auto">
       <h1 className="my-20 text-center text-4xl">Skills</h1>
       <div className="flex flex-wrap items-center justify-center gap-4">
-        {/* First row of icons */}
         <div className="flex flex-wrap justify-center gap-4">
           <div className="rounded-2xl border-4 border-neutral-800 p-4">
             <BiLogoTypescript
@@ -36,7 +35,6 @@ const Technologies = () => {
           </div>
         </div>
 
-        {/* Second row of icons */}
         <div className="flex flex-wrap justify-center gap-4 mt-4">
           <div className="rounded-2xl border-4 border-neutral-800 p-4">
             <RiReactjsLine className="text-7xl text-cyan-400" />

@@ -18,6 +18,7 @@ export const PROJECTS = [
       "Tailwind CSS",
       "Framer Motion",
     ],
+    link: "https://github.com/DavisWingard/Website"
   },
   {
     title: "Web Scraping Discord Bot",
@@ -25,6 +26,7 @@ export const PROJECTS = [
     description:
       "I built a Discord bot so members of my server could view stats about their teammates and enemies in the game Valorant, without having to navigate to an external webpage.",
     technologies: ["JavaScript", "Node.js", "Discord.js", "Puppeteer"],
+    link: "https://github.com/DavisWingard/Valorant-Tracker-Bot"
   },
   {
     title: "Terraria Mod",

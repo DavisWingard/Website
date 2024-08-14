@@ -1,3 +1,4 @@
+'use client';
 import React from "react"; // Ensure React is imported
 import { PROJECTS } from "@/constants";
 import Image from "next/image";
@@ -21,6 +22,7 @@ const Projects = () => {
                 width={150}
                 height={150}
                 className="mb-6 rounded"
+                onClick={() => window.open(project.link)}
               />
             </div>
             <div className="w-full max-w-xl lg:w-3/4">
